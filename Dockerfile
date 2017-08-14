@@ -6,5 +6,5 @@ RUN git clone https://github.com/SKCraft/Launcher.git && \
     cd .. && \
     rm -rf Launcher && \
     curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | bash && \
-    apt-get install rsync git-lfs && \
+    apt-get install -y rsync git-lfs && \
     git lfs install
